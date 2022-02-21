@@ -1,0 +1,61 @@
+ask riddle method
+
+determine if the answer is correct
+
+if correct, remove previously asked riddle and answer, then ask riddle again
+
+if wrong, end questions/losestate/get eaten
+
+
+
+class Gollum
+
+list riddle
+list answers
+
+method ask riddle
+ create random number
+
+method to determine answer 
+  remove answers/riddles
+
+
+  /*class Gollum
+{
+  public static void Main()
+  {
+    Console.WriteLine("Answer Gollum's riddles correctly or Gollum will bash you over the head and eat you like a tasty snack");
+    
+    Console.WriteLine(Riddle[randomNumber]);
+    Console.WriteLine("What is the answer?");
+    string userAnswer = Console.ReadLine();
+    if(userAnswer.ToLower().Contains(Answer[randomNumber])){
+      Console.WriteLine("You answered the riddle correctly!");
+      Riddle.Remove(Riddle[randomNumber]);
+      Answer.Remove(Answer[randomNumber]);
+      for(int i = 0; i < Riddle.Count; i++){
+        Console.WriteLine(Riddle[i]);
+      }
+      Console.WriteLine(" ");
+      for(int i=0; i < Answer.Count; i++){
+        Console.WriteLine(Answer[i]);
+      }
+    }
+    else{
+      Console.WriteLine("You have been bashed over the head and eaten by Gollum.");
+    }
+
+  }
+}*/
+
+
+List<string> Questions = new List<string> {"A box without hinges, key or lid, yet golden treasure inside is hid", "What has roots as nobody sees, is taller than trees, up, up, up it goes and yet, never grows", "Thirty white horses on a red hill, first they champ, they they stamp, they the stand still", "Voiceless it cries, wingless flutters, toothless bites, mouthless mutters", "An eye in a blue face saw an eye in a green face. 'That eye is like to this eye' said the first eye, 'But in low place not in high place'", "It cannot be seen, cannot be felt, cannot be heard, cannot be smelt. It lies behind stars and under hills, and and empty holes it fills. It comes first and follows after, ends life, kills laughter", "Alive without breath, as cold as death; never thirsty, ever drinking, all in mail never clinking", "This thing all things devours: birds, beasts, trees, flowers; gnaws irons, bites steel; grinds hard stones to meal; slays king, ruins town, and beats high mountain down."};
+      List<string> Answers = new List<string> {"egg","mountain","teeth", "wind","sun shining on daisies", "darkness", "fish", "time"};
+      int questionLength = Questions.Count;
+      Console.WriteLine(questionLength);
+      int randomNumber = Gollum.GetRandomNumber(questionLength);
+      Console.WriteLine(randomNumber);
+      string riddle = Gollum.GetRiddle(randomNumber, Questions);
+      Console.WriteLine(riddle);
+      // string answer = Gollum.GetAnswer(randomNumber, Answers);
+      // Console.WriteLine(answer);

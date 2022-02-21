@@ -1,0 +1,15 @@
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/bin/Debug/net5.0/GollumRiddles.deps.json
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/bin/Debug/net5.0/GollumRiddles.runtimeconfig.json
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/bin/Debug/net5.0/GollumRiddles.runtimeconfig.dev.json
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/bin/Debug/net5.0/GollumRiddles.dll
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/bin/Debug/net5.0/ref/GollumRiddles.dll
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/bin/Debug/net5.0/GollumRiddles.pdb
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.csproj.AssemblyReference.cache
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.AssemblyInfoInputs.cache
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.AssemblyInfo.cs
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.csproj.CoreCompileInputs.cache
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.dll
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/ref/GollumRiddles.dll
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.pdb
+/Users/brennalavin/Desktop/Epicodus/sphinx-riddle/obj/Debug/net5.0/GollumRiddles.genruntimeconfig.cache
